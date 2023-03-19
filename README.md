@@ -17,5 +17,5 @@ git clone https://github.com/AstroNvim/AstroNvim.git ~/.config/nvim
 - Install User Settings
 
 ```sh
-git clone https://github.com/jeremypries/astronvim ~/.config/nvim/lua/user
+git clone https://github.com/jeremypries/astronvim-user ~/.config/nvim/lua/user
 ```
