@@ -1,6 +1,7 @@
+
 return {
 
-  colorscheme = "oxocarbon",
+  colorscheme = "tokyonight-moon",
 
   plugins = {
     "AstroNvim/astrocommunity",

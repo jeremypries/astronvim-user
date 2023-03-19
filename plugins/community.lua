@@ -2,12 +2,21 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.colorscheme.onigiri", enabled = false },
-  { import = "astrocommunity.colorscheme.oxocarbon", enabled = true },
+  { import = "astrocommunity.colorscheme.oxocarbon", enabled = false },
+  { import = "astrocommunity.colorscheme.tokyonight" },
   { import = "astrocommunity.colorscheme.nightfox", enabled = false },
   { import = "astrocommunity.colorscheme.kanagawa", enabled = false },
   { import = "astrocommunity.colorscheme.rose-pine", enabled = false },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  
+
+  { "folke/tokyonight.nvim",
+    opts = {
+      transparent = false,
+      style = "storm",
+      dim_inactive = true,
+    },
+  },
+
   { -- further customize the options set by the community
     "catppuccin",
     opts = {
